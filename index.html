@@ -4,7 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CLUB CAFE — Pittsburgh's Intimate Live Music Venue</title>
-  <meta name="description" content="Club Cafe is a renowned, intimate live music venue and iconic staple of Pittsburgh's historic South Side district. Live music, craft cocktails, and coffee.">
+  <meta name="description" content="Club Cafe is a renowned, intimate live music venue and iconic staple of Pittsburgh's historic South Side district. Est. 1999. Live music, craft cocktails, coffee. 56 S 12th St, Pittsburgh PA.">
+  <meta property="og:title" content="Club Cafe — Pittsburgh Live Music">
+  <meta property="og:description" content="A renowned, intimate live music venue and iconic staple of Pittsburgh's historic South Side district.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.clubcafelive.com">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -21,12 +25,12 @@
       </a>
       <ul class="nav-links" id="navLinks">
         <li><a href="#home" class="nav-link active">Home</a></li>
-        <li><a href="#shows" class="nav-link">Shows</a></li>
+        <li><a href="#shows" class="nav-link">Upcoming Shows</a></li>
         <li><a href="#about" class="nav-link">About</a></li>
         <li><a href="#menus" class="nav-link">Menus</a></li>
         <li><a href="#coffee" class="nav-link">Coffee</a></li>
         <li><a href="#contact" class="nav-link">Visit</a></li>
-        <li><a href="https://www.ticketweb.com/venue/club-cafe-pittsburgh-pa/23207" target="_blank" rel="noopener" class="nav-link nav-cta">Get Tickets</a></li>
+        <li><a href="https://www.ticketweb.com/venue/club-cafe-pittsburgh-pa/23219?pl=opusevents.php" target="_blank" rel="noopener" class="nav-link nav-cta">Get Tickets</a></li>
       </ul>
       <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
         <span></span>
@@ -39,7 +43,7 @@
   <!-- ==================== HERO ==================== -->
   <section class="hero" id="home">
     <div class="hero-bg">
-      <img src="https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=1920&q=80" alt="Live concert atmosphere" class="hero-img">
+      <img src="https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=1920&q=80" alt="Live concert atmosphere at Club Cafe Pittsburgh" class="hero-img">
       <div class="hero-overlay"></div>
     </div>
     <div class="hero-content">
@@ -118,97 +122,331 @@
       <div class="section-header">
         <span class="section-tag">What's On</span>
         <h2 class="section-title">Upcoming Shows</h2>
-        <p class="section-desc">All shows are 21+. Check back often — new shows are announced regularly.</p>
+        <p class="section-desc">All shows are 21+. No flash photography or video/audio recording. On-street parking available.</p>
       </div>
 
-      <div class="shows-grid">
-        <!-- Show Card 1 -->
-        <article class="show-card" data-animate>
-          <div class="show-date">
-            <span class="show-month">MAR</span>
-            <span class="show-day">04</span>
+      <!-- Weekly Recurring Events Banner -->
+      <div class="weekly-events" data-animate>
+        <h3 class="weekly-title">Weekly Community Nights — No Cover</h3>
+        <div class="weekly-grid">
+          <div class="weekly-card">
+            <div class="weekly-day">MON</div>
+            <div class="weekly-info">
+              <h4>Open Jam</h4>
+              <p>Bar 6PM &bull; Jam 7PM &bull; All Musicians Welcome</p>
+            </div>
+          </div>
+          <div class="weekly-card">
+            <div class="weekly-day">TUE</div>
+            <div class="weekly-info">
+              <h4>Open Mic / Signup</h4>
+              <p>Bar 6PM &bull; Signups 6PM &bull; Start 7PM</p>
+            </div>
+          </div>
+          <div class="weekly-card">
+            <div class="weekly-day">WED</div>
+            <div class="weekly-info">
+              <h4>Open Mic / Signup</h4>
+              <p>Bar 6PM &bull; Signups 6PM &bull; Start 7PM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ticketed Shows -->
+      <div class="shows-list" data-animate>
+
+        <!-- Artikal Sound System -->
+        <article class="show-row">
+          <div class="show-date-block">
             <span class="show-weekday">WED</span>
+            <span class="show-day">04</span>
+            <span class="show-month">MAR</span>
           </div>
-          <div class="show-image">
-            <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600&q=80" alt="Artikal Sound System" loading="lazy">
-            <div class="show-image-overlay"></div>
+          <div class="show-image-thumb">
+            <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300&q=80" alt="Artikal Sound System" loading="lazy">
           </div>
-          <div class="show-info">
+          <div class="show-details">
             <h3 class="show-name">Artikal Sound System</h3>
             <p class="show-support">w/ Sensamotion</p>
-            <div class="show-meta">
-              <span class="show-time">Doors 7PM &bull; Show 8PM</span>
-            </div>
-            <a href="https://www.ticketweb.com/venue/club-cafe-pittsburgh-pa/23207" target="_blank" rel="noopener" class="btn btn-small">Get Tickets</a>
+            <span class="show-genre">Reggae &bull; Roots &bull; Soul</span>
+          </div>
+          <div class="show-time-price">
+            <span class="show-time">Doors 7PM &bull; Show 8PM</span>
+            <span class="show-price">21+</span>
+          </div>
+          <div class="show-action">
+            <a href="https://www.ticketweb.com/venue/club-cafe-pittsburgh-pa/23219?pl=opusevents.php" target="_blank" rel="noopener" class="btn btn-small">Get Tickets</a>
           </div>
         </article>
 
-        <!-- Show Card 2 -->
-        <article class="show-card" data-animate>
-          <div class="show-date">
-            <span class="show-month">MAR</span>
-            <span class="show-day">07</span>
+        <!-- Pat Kelly -->
+        <article class="show-row">
+          <div class="show-date-block">
             <span class="show-weekday">FRI</span>
+            <span class="show-day">06</span>
+            <span class="show-month">MAR</span>
           </div>
-          <div class="show-image">
-            <img src="https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=600&q=80" alt="Open Jam Night" loading="lazy">
-            <div class="show-image-overlay"></div>
+          <div class="show-image-thumb">
+            <img src="https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=300&q=80" alt="Pat Kelly" loading="lazy">
           </div>
-          <div class="show-info">
-            <h3 class="show-name">Open Jam Night</h3>
-            <p class="show-support">No Cover — All Musicians Welcome</p>
-            <div class="show-meta">
-              <span class="show-time">8PM Start</span>
-            </div>
-            <a href="#contact" class="btn btn-small btn-outline-sm">Free Entry</a>
+          <div class="show-details">
+            <h3 class="show-name">Pat Kelly</h3>
+            <p class="show-support">&nbsp;</p>
+            <span class="show-genre">Live Music</span>
+          </div>
+          <div class="show-time-price">
+            <span class="show-time">Doors 7PM &bull; Show 8PM</span>
+            <span class="show-price">21+</span>
+          </div>
+          <div class="show-action">
+            <a href="https://www.ticketweb.com/venue/club-cafe-pittsburgh-pa/23219?pl=opusevents.php" target="_blank" rel="noopener" class="btn btn-small">Get Tickets</a>
           </div>
         </article>
 
-        <!-- Show Card 3 -->
-        <article class="show-card" data-animate>
-          <div class="show-date">
-            <span class="show-month">MAR</span>
-            <span class="show-day">08</span>
+        <!-- MJT -->
+        <article class="show-row">
+          <div class="show-date-block">
             <span class="show-weekday">SAT</span>
+            <span class="show-day">07</span>
+            <span class="show-month">MAR</span>
           </div>
-          <div class="show-image">
-            <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=600&q=80" alt="Open Mic Night" loading="lazy">
-            <div class="show-image-overlay"></div>
+          <div class="show-image-thumb">
+            <img src="https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=300&q=80" alt="MJT" loading="lazy">
           </div>
-          <div class="show-info">
-            <h3 class="show-name">Open Mic / Signup</h3>
-            <p class="show-support">No Cover — Sign Up at Door</p>
-            <div class="show-meta">
-              <span class="show-time">7PM Signup &bull; 8PM Start</span>
-            </div>
-            <a href="#contact" class="btn btn-small btn-outline-sm">Free Entry</a>
+          <div class="show-details">
+            <h3 class="show-name">MJT</h3>
+            <p class="show-support">&nbsp;</p>
+            <span class="show-genre">Live Music</span>
+          </div>
+          <div class="show-time-price">
+            <span class="show-time">Doors 7PM &bull; Show 8PM</span>
+            <span class="show-price">21+</span>
+          </div>
+          <div class="show-action">
+            <a href="https://www.ticketweb.com/venue/club-cafe-pittsburgh-pa/23219?pl=opusevents.php" target="_blank" rel="noopener" class="btn btn-small">Get Tickets</a>
           </div>
         </article>
 
-        <!-- Show Card 4 -->
-        <article class="show-card" data-animate>
-          <div class="show-date">
-            <span class="show-month">MAR</span>
+        <!-- Reuben's Painted Mandolin -->
+        <article class="show-row">
+          <div class="show-date-block">
+            <span class="show-weekday">SAT</span>
             <span class="show-day">14</span>
-            <span class="show-weekday">FRI</span>
+            <span class="show-month">MAR</span>
           </div>
-          <div class="show-image">
-            <img src="https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=600&q=80" alt="Live Performance" loading="lazy">
-            <div class="show-image-overlay"></div>
+          <div class="show-image-thumb">
+            <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=300&q=80" alt="Reuben's Painted Mandolin" loading="lazy">
           </div>
-          <div class="show-info">
-            <h3 class="show-name">Open Jam Night</h3>
-            <p class="show-support">No Cover — All Musicians Welcome</p>
-            <div class="show-meta">
-              <span class="show-time">8PM Start</span>
-            </div>
-            <a href="#contact" class="btn btn-small btn-outline-sm">Free Entry</a>
+          <div class="show-details">
+            <h3 class="show-name">Reuben's Painted Mandolin</h3>
+            <p class="show-support">"A Tribute to the Jerry Garcia Band"</p>
+            <span class="show-genre">Tribute &bull; Jam</span>
+          </div>
+          <div class="show-time-price">
+            <span class="show-time">Doors 7PM &bull; Show 7:30PM</span>
+            <span class="show-price">$15 ADV &bull; $20 DOS</span>
+          </div>
+          <div class="show-action">
+            <a href="https://www.ticketweb.com/venue/club-cafe-pittsburgh-pa/23219?pl=opusevents.php" target="_blank" rel="noopener" class="btn btn-small">Get Tickets</a>
           </div>
         </article>
+
+        <!-- Twen -->
+        <article class="show-row">
+          <div class="show-date-block">
+            <span class="show-weekday">TUE</span>
+            <span class="show-day">17</span>
+            <span class="show-month">MAR</span>
+          </div>
+          <div class="show-image-thumb">
+            <img src="https://images.unsplash.com/photo-1508854710579-5cecc3a9ff17?w=300&q=80" alt="Twen" loading="lazy">
+          </div>
+          <div class="show-details">
+            <h3 class="show-name">Twen</h3>
+            <p class="show-support">&nbsp;</p>
+            <span class="show-genre">Indie</span>
+          </div>
+          <div class="show-time-price">
+            <span class="show-time">Doors 7PM &bull; Show 8PM</span>
+            <span class="show-price">$17 ADV &bull; $20 DOS</span>
+          </div>
+          <div class="show-action">
+            <a href="https://www.ticketweb.com/venue/club-cafe-pittsburgh-pa/23219?pl=opusevents.php" target="_blank" rel="noopener" class="btn btn-small">Get Tickets</a>
+          </div>
+        </article>
+
+        <!-- Rebecca Porter -->
+        <article class="show-row">
+          <div class="show-date-block">
+            <span class="show-weekday">TUE</span>
+            <span class="show-day">25</span>
+            <span class="show-month">MAR</span>
+          </div>
+          <div class="show-image-thumb">
+            <img src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=300&q=80" alt="Rebecca Porter" loading="lazy">
+          </div>
+          <div class="show-details">
+            <h3 class="show-name">Rebecca Porter</h3>
+            <p class="show-support">w/ Coltt Winter Lepley &amp; Emily Woodhull</p>
+            <span class="show-genre">Singer-Songwriter</span>
+          </div>
+          <div class="show-time-price">
+            <span class="show-time">Doors 7PM &bull; Show 8PM</span>
+            <span class="show-price">21+</span>
+          </div>
+          <div class="show-action">
+            <a href="https://www.ticketweb.com/venue/club-cafe-pittsburgh-pa/23219?pl=opusevents.php" target="_blank" rel="noopener" class="btn btn-small">Get Tickets</a>
+          </div>
+        </article>
+
+        <!-- Caiola -->
+        <article class="show-row">
+          <div class="show-date-block">
+            <span class="show-weekday">WED</span>
+            <span class="show-day">26</span>
+            <span class="show-month">MAR</span>
+          </div>
+          <div class="show-image-thumb">
+            <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300&q=80" alt="Caiola" loading="lazy">
+          </div>
+          <div class="show-details">
+            <h3 class="show-name">Caiola</h3>
+            <p class="show-support">Spring Tour w/ Mid America</p>
+            <span class="show-genre">Live Music</span>
+          </div>
+          <div class="show-time-price">
+            <span class="show-time">Doors 7PM &bull; Show 8PM</span>
+            <span class="show-price">21+</span>
+          </div>
+          <div class="show-action">
+            <a href="https://www.ticketweb.com/venue/club-cafe-pittsburgh-pa/23219?pl=opusevents.php" target="_blank" rel="noopener" class="btn btn-small">Get Tickets</a>
+          </div>
+        </article>
+
+        <!-- Joe Stamm Band -->
+        <article class="show-row">
+          <div class="show-date-block">
+            <span class="show-weekday">THU</span>
+            <span class="show-day">27</span>
+            <span class="show-month">MAR</span>
+          </div>
+          <div class="show-image-thumb">
+            <img src="https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=300&q=80" alt="Joe Stamm Band" loading="lazy">
+          </div>
+          <div class="show-details">
+            <h3 class="show-name">Joe Stamm Band</h3>
+            <p class="show-support">w/ Dave Shepherd</p>
+            <span class="show-genre">Americana &bull; Country</span>
+          </div>
+          <div class="show-time-price">
+            <span class="show-time">Doors 7PM &bull; Show 8PM</span>
+            <span class="show-price">21+</span>
+          </div>
+          <div class="show-action">
+            <a href="https://www.ticketweb.com/venue/club-cafe-pittsburgh-pa/23219?pl=opusevents.php" target="_blank" rel="noopener" class="btn btn-small">Get Tickets</a>
+          </div>
+        </article>
+
+        <!-- Now You're A Circle Tour -->
+        <article class="show-row">
+          <div class="show-date-block">
+            <span class="show-weekday">SUN</span>
+            <span class="show-day">30</span>
+            <span class="show-month">MAR</span>
+          </div>
+          <div class="show-image-thumb">
+            <img src="https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=300&q=80" alt="Now You're A Circle Tour" loading="lazy">
+          </div>
+          <div class="show-details">
+            <h3 class="show-name">Club Cafe Presents: Now You're A Circle Tour</h3>
+            <p class="show-support">&nbsp;</p>
+            <span class="show-genre">Live Music</span>
+          </div>
+          <div class="show-time-price">
+            <span class="show-time">Doors 7PM &bull; Show 8PM</span>
+            <span class="show-price">21+</span>
+          </div>
+          <div class="show-action">
+            <a href="https://www.ticketweb.com/venue/club-cafe-pittsburgh-pa/23219?pl=opusevents.php" target="_blank" rel="noopener" class="btn btn-small">Get Tickets</a>
+          </div>
+        </article>
+
+        <!-- APRIL HEADER -->
+        <div class="shows-month-divider">
+          <span>April 2026</span>
+        </div>
+
+        <!-- My Politic -->
+        <article class="show-row">
+          <div class="show-date-block">
+            <span class="show-weekday">THU</span>
+            <span class="show-day">09</span>
+            <span class="show-month">APR</span>
+          </div>
+          <div class="show-image-thumb">
+            <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=300&q=80" alt="My Politic" loading="lazy">
+          </div>
+          <div class="show-details">
+            <h3 class="show-name">91.3 WYEP Presents: My Politic</h3>
+            <p class="show-support">w/ Mark Dignam &amp; Mirabelle Skipworth</p>
+            <span class="show-genre">Indie-Folk</span>
+          </div>
+          <div class="show-time-price">
+            <span class="show-time">Doors 7PM &bull; Show 8PM</span>
+            <span class="show-price">21+</span>
+          </div>
+          <div class="show-action">
+            <a href="https://www.ticketweb.com/venue/club-cafe-pittsburgh-pa/23219?pl=opusevents.php" target="_blank" rel="noopener" class="btn btn-small">Get Tickets</a>
+          </div>
+        </article>
+
+        <!-- In Color -->
+        <article class="show-row">
+          <div class="show-date-block">
+            <span class="show-weekday">SAT</span>
+            <span class="show-day">11</span>
+            <span class="show-month">APR</span>
+          </div>
+          <div class="show-image-thumb">
+            <img src="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=300&q=80" alt="In Color" loading="lazy">
+          </div>
+          <div class="show-details">
+            <h3 class="show-name">Club Cafe Presents: In Color</h3>
+            <p class="show-support">&nbsp;</p>
+            <span class="show-genre">Live Music</span>
+          </div>
+          <div class="show-time-price">
+            <span class="show-time">Doors 7PM &bull; Show 8PM</span>
+            <span class="show-price">21+</span>
+          </div>
+          <div class="show-action">
+            <a href="https://www.ticketweb.com/venue/club-cafe-pittsburgh-pa/23219?pl=opusevents.php" target="_blank" rel="noopener" class="btn btn-small">Get Tickets</a>
+          </div>
+        </article>
+
       </div>
 
-      <div class="shows-cta">
-        <a href="https://www.clubcafelive.com/upcoming-shows" target="_blank" rel="noopener" class="btn btn-primary">View All Shows</a>
+      <!-- Ticket Platform Links -->
+      <div class="shows-cta-group">
+        <a href="https://www.ticketweb.com/venue/club-cafe-pittsburgh-pa/23219?pl=opusevents.php" target="_blank" rel="noopener" class="btn btn-primary">Buy Tickets on TicketWeb</a>
+        <a href="https://www.clubcafelive.com/upcoming-shows" target="_blank" rel="noopener" class="btn btn-outline">Full Schedule on ClubCafeLive.com</a>
+      </div>
+
+      <!-- Bandsintown Tracking Widget -->
+      <div class="tracking-widget" data-animate>
+        <p class="tracking-text">Never miss a show — track Club Cafe on your favorite platform:</p>
+        <div class="tracking-links">
+          <a href="https://www.bandsintown.com/v/10000064-club-cafe" target="_blank" rel="noopener" class="tracking-btn">
+            <span>Bandsintown</span>
+          </a>
+          <a href="https://www.songkick.com/venues/578281-club-cafe" target="_blank" rel="noopener" class="tracking-btn">
+            <span>Songkick</span>
+          </a>
+          <a href="https://www.ticketmaster.com/club-cafe-tickets-pittsburgh/venue/180268" target="_blank" rel="noopener" class="tracking-btn">
+            <span>Ticketmaster</span>
+          </a>
+        </div>
       </div>
     </div>
   </section>
@@ -236,10 +474,16 @@
             Club Cafe is a renowned, intimate live music venue and iconic staple of Pittsburgh's historic South Side district. The intimate space is host to a nightly lineup of touring acts from all over the world as well as local artists from Pittsburgh's thriving music scene.
           </p>
           <p class="about-text">
-            Founded in 1999 by Marco and Paula Cardamone in an intimate space on Bedford Square, Club Cafe quickly became Pittsburgh's premier destination for discovering extraordinary talent before they hit the big stage.
+            The story began in the spring of 1999, when founders Marco and Paula Cardamone opened a performance space on Bedford Square in a building with deep South Side roots — dating back to the 1930s when it was a "shot and a beer" watering hole for Pittsburgh's steelworkers. Club Cafe created exceptional acoustics within a small, intimate environment designed to be the most intimate music performance stage in Pittsburgh.
           </p>
           <p class="about-text">
-            Pittsburgh landmark Club Cafe is the best club to see live music in the city, also serving an exclusive list of cocktails, drafts, cans, wine, and small plates.
+            For 25 years, the 125-seat space served as a launchpad where future stars cut their teeth, Pittsburgh artists played their first sets, and countless late-night encores turned strangers into regulars.
+          </p>
+          <p class="about-text">
+            In 2025, Danielle Mashuda and Maddy Lafferty of <a href="https://keystoneartistconnect.com" target="_blank" rel="noopener">Keystone Artist Connect</a> stepped in to carry Club Cafe forward — bringing a combined 24 years of entertainment industry experience, a vision for community, and a deep love for Pittsburgh's music scene. Joined by partners Read Connolly, Kristen Whitlinger, and Elliott Sussman, they reopened the doors with a refreshed interior, expanded food and drink offerings, and a promise to stay true to the club's acoustic roots while broadening the range of programming.
+          </p>
+          <p class="about-text">
+            Under new ownership, Club Cafe is more than a performance space — it's a hangout. Folk, Americana, and singer-songwriter acts share the stage with funk and jazz jams, punk shows, hip-hop sets, drag revues, and LGBTQ DJ dance nights. On nights without ticketed shows, the doors stay open for community programming: open mics, DJ sets, trivia, karaoke, and whatever else gets people in.
           </p>
           <div class="about-artists">
             <h3 class="about-artists-title">Past Performers Include</h3>
@@ -297,7 +541,7 @@
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M8 22h8"/><path d="M12 11v11"/><path d="m19 3-7 8-7-8h14z"/></svg>
             </div>
             <h3>Cocktails</h3>
-            <p>An exclusive list of handcrafted cocktails featuring local spirits and seasonal ingredients.</p>
+            <p>An exclusive list of handcrafted cocktails featuring local spirits and seasonal ingredients. Stocked with as many local products as possible, including nonalcoholic offerings.</p>
           </div>
         </div>
 
@@ -312,7 +556,7 @@
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 11h1a3 3 0 0 1 0 6h-1"/><path d="M9 12v6"/><path d="M13 12v6"/><path d="M14 7.5c-1 0-1.44.5-3 .5s-2-.5-3-.5-1.72.5-2.5.5a2.5 2.5 0 0 1 0-5c.78 0 1.57.5 2.5.5S9.44 3 11 3s2 .5 3 .5 1.72-.5 2.5-.5a2.5 2.5 0 0 1 0 5c-.78 0-1.5-.5-2.5-.5Z"/><path d="M5 8v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V8"/></svg>
             </div>
             <h3>Drafts & Cans</h3>
-            <p>A carefully curated selection of microbrews, local favorites, and craft beers on tap and in can.</p>
+            <p>A carefully curated selection of microbrews, local favorites, and craft beers. Known for having a much better than average selection of microbrews.</p>
           </div>
         </div>
 
@@ -327,7 +571,7 @@
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M8 22h8"/><path d="M12 11v11"/><path d="M5.28 3h13.44a1 1 0 0 1 .97 1.24L17 11a5 5 0 0 1-10 0L4.31 4.24A1 1 0 0 1 5.28 3z"/></svg>
             </div>
             <h3>Wine</h3>
-            <p>A thoughtful wine list featuring reds, whites, and rosés to complement your evening.</p>
+            <p>A thoughtful wine list featuring reds, whites, and rosés to complement your evening at the venue.</p>
           </div>
         </div>
 
@@ -342,13 +586,13 @@
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/><path d="M21 15V2v0a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"/></svg>
             </div>
             <h3>Small Plates</h3>
-            <p>Delicious bites and shareable plates sourced from local Pittsburgh purveyors.</p>
+            <p>Delicious bites and shareable plates sourced from local Pittsburgh purveyors and restaurants.</p>
           </div>
         </div>
       </div>
 
       <div class="menu-cta">
-        <a href="https://www.clubcafelive.com/menus" target="_blank" rel="noopener" class="btn btn-outline">View Full Menus</a>
+        <a href="https://www.clubcafelive.com/menus" target="_blank" rel="noopener" class="btn btn-outline">View Full Menus at ClubCafeLive.com</a>
       </div>
     </div>
   </section>
@@ -361,10 +605,13 @@
           <span class="section-tag">Mornings</span>
           <h2 class="section-title">Club Cafe Coffee</h2>
           <p class="coffee-text">
-            Bringing a fresh, creative energy to Pittsburgh's South Side. Our Coffee House serves Ghost Coffee Collab beans roasted by Trace Brewery, alongside a curated menu of specialty coffees, teas, and light bites.
+            Bringing a fresh, creative energy to Pittsburgh's South Side. Our Coffee House serves <strong>Ghost Coffee Collab</strong> beans roasted locally by <strong>Trace Brewing</strong> — one of the city's favorites.
           </p>
           <p class="coffee-text">
-            Enjoy local bakery items and breakfast sandwiches from Pittsburgh Sandwich Society. Stop in and grab a coffee (or a chocolate milk) and a sandwich before your day begins.
+            Enjoy breakfast sandwiches from <strong>Pittsburgh Sandwich Society</strong> (operating out of Strange Roots Taproom in Millvale), fresh pastries from <strong>Prantl's Bakery</strong>, and a curated menu of specialty coffees, teas, and light bites.
+          </p>
+          <p class="coffee-text">
+            Stop in and grab a coffee (or a chocolate milk) and a sandwich before your day begins.
           </p>
           <div class="coffee-hours">
             <div class="coffee-hours-card">
@@ -373,7 +620,12 @@
               <p class="coffee-time">8:00 AM – 3:00 PM</p>
             </div>
           </div>
-          <p class="coffee-note">Weekend brunch events coming soon — making Club Cafe an all-day destination.</p>
+          <div class="coffee-partners">
+            <span class="coffee-partner-tag">Ghost Coffee Collab</span>
+            <span class="coffee-partner-tag">Trace Brewing</span>
+            <span class="coffee-partner-tag">Pittsburgh Sandwich Society</span>
+            <span class="coffee-partner-tag">Prantl's Bakery</span>
+          </div>
         </div>
         <div class="coffee-images" data-animate>
           <div class="coffee-img-main">
@@ -427,8 +679,8 @@
             </div>
             <div>
               <h3>Location</h3>
-              <p>56 South 12th Street<br>Pittsburgh, PA 15203</p>
-              <p class="contact-sub">South Side, Pittsburgh</p>
+              <p>56-58 South 12th Street<br>Pittsburgh, PA 15203</p>
+              <p class="contact-sub">South Side, Pittsburgh &bull; On-street parking available</p>
             </div>
           </div>
 
@@ -462,7 +714,7 @@
             <div>
               <h3>Contact</h3>
               <p><a href="tel:4124314950">(412) 431-4950</a></p>
-              <p class="contact-sub">21+ All Shows</p>
+              <p class="contact-sub">21+ All Shows &bull; No flash photography or recording</p>
             </div>
           </div>
         </div>
@@ -476,7 +728,7 @@
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
-            title="Club Cafe Location">
+            title="Club Cafe — 56 S 12th St, Pittsburgh PA 15203">
           </iframe>
         </div>
       </div>
@@ -506,7 +758,7 @@
             <span class="logo-text">CLUB CAFE</span>
             <span class="logo-sub">PITTSBURGH</span>
           </div>
-          <p class="footer-desc">A renowned, intimate live music venue and iconic staple of Pittsburgh's historic South Side district.</p>
+          <p class="footer-desc">A renowned, intimate live music venue and iconic staple of Pittsburgh's historic South Side district. Est. 1999.</p>
           <div class="footer-social">
             <a href="https://www.instagram.com/clubcafelive/" target="_blank" rel="noopener" aria-label="Instagram" class="social-link">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
@@ -514,7 +766,7 @@
             <a href="https://www.facebook.com/clubcafelive" target="_blank" rel="noopener" aria-label="Facebook" class="social-link">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
             </a>
-            <a href="https://twitter.com/clubcafelive" target="_blank" rel="noopener" aria-label="Twitter" class="social-link">
+            <a href="https://x.com/clubcafelive" target="_blank" rel="noopener" aria-label="X (Twitter)" class="social-link">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l11.733 16h4.267l-11.733 -16h-4.267z"/><path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"/></svg>
             </a>
           </div>
@@ -534,19 +786,22 @@
         <div class="footer-links">
           <h4>Tickets & More</h4>
           <ul>
-            <li><a href="https://www.ticketweb.com/venue/club-cafe-pittsburgh-pa/23207" target="_blank" rel="noopener">Buy Tickets</a></li>
+            <li><a href="https://www.ticketweb.com/venue/club-cafe-pittsburgh-pa/23219?pl=opusevents.php" target="_blank" rel="noopener">Buy Tickets (TicketWeb)</a></li>
             <li><a href="https://www.clubcafelive.com/upcoming-shows" target="_blank" rel="noopener">Full Schedule</a></li>
             <li><a href="https://www.clubcafelive.com/menus" target="_blank" rel="noopener">Full Menus</a></li>
+            <li><a href="https://www.bandsintown.com/v/10000064-club-cafe" target="_blank" rel="noopener">Bandsintown</a></li>
+            <li><a href="https://www.songkick.com/venues/578281-club-cafe" target="_blank" rel="noopener">Songkick</a></li>
           </ul>
         </div>
 
         <div class="footer-links">
           <h4>Visit</h4>
           <ul>
-            <li>56 South 12th Street</li>
+            <li>56-58 South 12th Street</li>
             <li>Pittsburgh, PA 15203</li>
             <li><a href="tel:4124314950">(412) 431-4950</a></li>
             <li>21+ All Shows</li>
+            <li>On-street parking</li>
           </ul>
         </div>
       </div>
