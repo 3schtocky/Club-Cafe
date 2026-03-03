@@ -782,6 +782,23 @@ a:hover {
   flex-shrink: 0;
 }
 
+/* Sold Out */
+.show-sold-out {
+  opacity: 0.6;
+}
+
+.show-price-soldout {
+  color: var(--red) !important;
+  font-weight: 700;
+}
+
+.btn-soldout {
+  background: var(--dark-4) !important;
+  color: var(--gray-500) !important;
+  cursor: default;
+  pointer-events: none;
+}
+
 /* Month Divider */
 .shows-month-divider {
   padding: 1.5rem;
